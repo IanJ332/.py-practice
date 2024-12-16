@@ -1,7 +1,7 @@
 # input
 # name = input("What is your name? ")
 # print(f"Hello {name}")
-from curses.textpad import rectangle
+# from curses.textpad import rectangle
 
 # words filling
 # word_1 = input("Enter word 1: ")
@@ -15,3 +15,11 @@ from curses.textpad import rectangle
 # width = int(input("Enter width: "))
 # area = height * width
 # print(f"Area is {area}")
+
+# shopping cart
+# item = str(input("what item do you want?"))
+# price = float(input("what price?"))
+# quantity = int(input("how many items do you want?"))
+#
+# total = price * quantity
+# print(f"so you need {int(total)} to buy {item}")
