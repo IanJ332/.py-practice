@@ -1,5 +1,5 @@
 weight = int(input('Enter weight in pounds: '))
-units = input('Enter (l)bs or (k)g: ').upper()
+units = input('Enter lb or kg: ').upper()
 
 if units == 'KG':
     print(f'Your weight is {weight}, convert to pounds is {weight * 2.20462} pounds')
