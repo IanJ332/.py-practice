@@ -1,4 +1,4 @@
-# List
+# List []
 # Ordered: Elements have a specific order, and this order is maintained.
 #
 # Mutable: Elements can be added, removed, or changed.
@@ -7,7 +7,7 @@
 #
 # Indexable: Elements can be accessed by their index.
 
-# Set
+# Set {}
 # Unordered: Elements have no specific order.
 #
 # Mutable: Elements can be added or removed.
@@ -16,7 +16,7 @@
 #
 # Not Indexable: Elements cannot be accessed by index.
 #
-# Tuple
+# Tuple ()
 # Ordered: Elements have a specific order.
 #
 # Immutable: Elements cannot be changed after the tuple is created.
@@ -25,7 +25,7 @@
 #
 # Indexable: Elements can be accessed by their index.
 
-'# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2,2,3,4,5]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2,2,3,4,5]
 
 # add number into the list, and its allow duplicate elements exists
 # print(numbers.append(2))
