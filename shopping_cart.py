@@ -1,18 +1,18 @@
-goods = []
-prices = []
+
+goods = [] #List to store the goods name
+prices = [] #List to store the price
 
 while True:
-    good = input('What is the product you would like to buy?')
-    if good.lower() == 'q':  # Corrected here
-        print('You have exited the input process.')
+    good =  input("Would you like to buy? ")
+    if good.lower() == "q":
         break
-
-    price = float(input(f'What is the price of the {good}?'))
+    price = float(input(f"What price of {good}? "))
     goods.append(good)
     prices.append(price)
-
-# Print the goods and prices
+# print("Goods list", goods)
+# print("Prices list", prices)
 for index, good in enumerate(goods):
-    print(f'{index}: {good}')
-for index, price in enumerate(prices):
-    print(f'{index}: {price}')
+    # print('index: ', index)
+    # print("Good's name: " , good)
+    print(f"The  {index + 1} is: {good}, the price is {prices[index]}: .2f") #.2f means I only want 2 figures after the . which is
+    print(f"The total is {sum(prices)}.")
