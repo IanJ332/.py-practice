@@ -53,7 +53,31 @@ dice_art = {
 # for i in range(1, 7):
 #     print(dice_art.get(i))
 
-# def get_random_dice():
-#     dice_number = random.randint(1, 6)
-#     print(f"Dice number is {dice_number}")
-#     print(dice_art.get(dice_number))
+def get_random_dice():
+    dice_number = random.randint(1, 6)
+    return dice_number
+    # print(f"Dice number is {dice_number}")
+    # print(dice_art.get(dice_number))
+
+num1 = []
+num2 = []
+dice_roll = int(input("Enter the dice roll number: "))
+
+
+for i in range(1, dice_roll + 1):
+    temp = get_random_dice()
+    temp_2 = get_random_dice()
+    print(f"The {i} time roll is {temp}")
+    print(dice_art.get(temp))
+    num1.append(temp)
+    num2.append(temp_2)
+    print(f"Your total is {sum(num1)}")
+    print(f"The bot total is {sum(num2)}")
+
+if sum(num1) == sum(num2):
+    print("It's a tie")
+elif sum(num1) > sum(num2):
+    print("Player wins")
+else:
+    print("Bot wins")
+
